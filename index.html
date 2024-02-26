@@ -3,17 +3,18 @@
     <meta charset="utf-8">
     <title>TITLE</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Your link to your CSS file -->
-    <link rel="stylesheet" href="">
-    <!-- Your Javascript file goes here -->
-    <script src="" async defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js"> asyncdefer</script>
   </head>
   <body>
-    <!-- your HTML should go here -->
     <nav>
-      <h1>Let's Play the Guessing Number Game!</h1>
+      <h1 id="title">Let's Play the Guessing Number Game!</h1>
+      <h1 id='whiskey'></h1>
     </nav>
-
-
+    <div>
+      <input id="user" placeholder="Number">
+      <button onclick="CorrectNum()">Guess</button>
+      <p id='results'></p>
+    </div> 
   </body>
 </html>
