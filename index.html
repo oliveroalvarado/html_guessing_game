@@ -4,17 +4,17 @@
     <title>TITLE</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
-    <script src="app.js"> asyncdefer</script>
+    <script src="app.js" defer></script>
   </head>
   <body>
     <nav>
       <h1 id="title">Let's Play the Guessing Number Game!</h1>
-      <h1 id='whiskey'></h1>
     </nav>
     <div>
-      <input id="user" placeholder="Number">
+      <input type="number" id="user" name="user" placeholder="Number">
       <button onclick="CorrectNum()">Guess</button>
       <p id='results'></p>
+      <p id='wrong'></p>
     </div> 
   </body>
 </html>
